@@ -62,7 +62,7 @@ p.connect([mix.outs[0], dac.ins[1]])
 p.save("additive.maxpat")
 ```
 
-## Web Audio API code example for Additive synthesis.
+## Web Audio API code example for Additive synthesis
 ```javascript
 // Web Audio API code example
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -93,7 +93,7 @@ osc3.start();
 osc4.start();
 ```
 
-## Web Audio API rich code example for Additive synthesis.
+## Web Audio API rich code example for Additive synthesis
 ```javascript
 // Web Audio API rich code example
 const audioCtx = new AudioContext();
@@ -125,3 +125,7 @@ for (let i = 0; i <= nPartials; i++) {
     osc.start();
 }
 ```
+
+## Wavir example for Additive synthesis
+![A screenshot of the Wavir visual language for additive synthesis](wavir-additive-high-res.png)
+
