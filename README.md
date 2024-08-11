@@ -1,5 +1,7 @@
 # Visual-Audio-Programming-Example-Code
 
+All code examples below implement additive synthesis on a sine wave at 440 Hz with 3 partials above the fundamental.
+
 ## Normal MaxPy code for Additive synthesis
 
 ```python
